@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titlet> form</titlet>
+</head>
+<body>
+
+    <form action="./response.html" target="_blank"name="biodata"  method="" >
+
+        <fieldset>  
+        <legend>Biodata</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br><br>
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="attempt">attempt:</label>
+        <input type="number" id="attempt" name="attempt" min="1" max="10" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
+        <label for="tel">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number" required><br><br>
+        <label for="add">Adress:</label>
+        <textarea name="add"  id="add" rows="7" cols="50" placeholder="Enter Your Address" required></textarea><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required checked>
+        <label for="male">male:</label>
+        <input type="radio" id="female" name="gender" value="female" required >
+        <label for="female">female:</label>
+        <br><br>
+        <label for="check">vehicles u have:</label>
+        <input type="checkbox" name="vehicles" id="bike" value="bike">
+        <label for="bike">bike</label> 
+        <input type="checkbox" name="vehicles" id="car" value="car">
+        <label for="car">car:</label><br><br>
+        <label for="pass">password:</label>
+        <input type="password" id="pass" placeholder="enter your password" required><br><br>
+<label for="select">select your programming language</label>
+<select name="select" id="select">
+<optgroup label="programming language"></optgroup>
+<option value="c">c</option>
+<option value="cpp">cpp</option>
+<option value="java">java</option>
+<optgroup label="frontend tech">
+<option value="HTML">HTML</option>
+<option value="css">css</option>
+<option value="Java script">Java script</option>
+</optgroup>
+</select> 
+<br /></br />
+<label for="file">file upload</label>
+<input type="time" id="appoint" name="appoint"required>
+<br /><br />
+<input type="submit">
+<input type="reset">
+</fieldset>   
+</form>
+
+    
+</body>
+</html>
